@@ -78,7 +78,7 @@ const Profile = () => {
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none", color: "#4CAF50", fontWeight: "bold" }}
                 >
-                  {`http://localhost:3000/referralSystem/${user.referralCode}`}
+                  {`https://backendimprfct.onrender.com/referralSystem/${user.referralCode}`}
                 </a>
               </p>
               <div onClick={sendWhatsMessage} style={{ cursor: "pointer" }}>
