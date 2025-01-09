@@ -12,7 +12,7 @@ const Profile = () => {
 
   const findUserByNumber = async () => {
     try {
-      const response = await axios.post("http://localhost:10000/findUser", { mobileNumber: number });
+      const response = await axios.post("https://backendimprfct.onrender.com/findUser", { mobileNumber: number });
       if (response.data.success) {
         setUser(response.data.user);
       } else {
@@ -33,7 +33,7 @@ const Profile = () => {
   }, [number]);
 
   const sendWhatsMessage = () => {
-    const url = `http://localhost:10000/referralSystem/${user.referralCode}`;
+    const url = `https://backendimprfct.onrender.com/referralSystem/${user.referralCode}`;
     const message = `Check out this link to register: ${url}`;
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/?text=${encodedMessage}`;
