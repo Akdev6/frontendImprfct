@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault(); // Prevent form submission default behavior
 
     try {
-      const response = await axios.post("http://localhost:10000/loginUser", {
+      const response = await axios.post("https://backendimprfct.onrender.com/loginUser", {
         mobileNumber: number,
       });
 
