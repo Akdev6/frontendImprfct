@@ -22,7 +22,7 @@ const ReferralSystem = () => {
         }
 
         try {
-            const response = await axios.post(`https://backendimprfct.onrender.com/userregister/${referralCode}`, {
+            const response = await axios.post(`https://backendimprfct.onrender.com/referalSystem/${referralCode}`, {
                 userName: name,
                 mobileNumber: number,
             });
