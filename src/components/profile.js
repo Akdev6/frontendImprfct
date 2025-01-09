@@ -73,7 +73,7 @@ const Profile = () => {
             <div>
               <p>
                 <a
-                  href={`https://backendimprfct.onrender.com/referralSystem/${user.referralCode}`}
+                  href={`https://frontend-imprfct-m2ko.vercel.app/referralSystem/${user.referralCode}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none", color: "#4CAF50", fontWeight: "bold" }}
