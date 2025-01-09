@@ -13,7 +13,7 @@ const Register = () => {
         e.preventDefault();
         try {
             if (name && number) {
-                const response = await axios.post('http://localhost:10000/userregister', {
+                const response = await axios.post('https://backendimprfct.onrender.com/userregister', {
                     userName: name,
                     mobileNumber: number,
                 });
