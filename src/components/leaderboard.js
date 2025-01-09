@@ -9,7 +9,7 @@ const Leaderboard = () => {
     useEffect(() => {
         const fetchLeaderboard = async () => {
             try {
-                const response = await axios.get('http://localhost:10000/leaderBoard');
+                const response = await axios.get('https://backendimprfct.onrender.com/leaderBoard');
                 if (response.data.success) {
                     setLeaderboard(response.data.user);
                 } else {
