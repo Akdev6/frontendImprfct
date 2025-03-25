@@ -45,7 +45,7 @@ const home=()=>{
         </nav>
         </div>
         <div>
-            <h1>Impract Referral Poratl
+            <h1>Impract Referral Portal
 
             </h1>
         </div>
