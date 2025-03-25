@@ -38,7 +38,7 @@ const Login = () => {
 
       {/* Form */}
       <div style={{ background: "white", margin: "20px", padding: "20px", borderRadius: "10px", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)" }}>
-        <h2 style={{ margin: "0 0 15px", fontSize: "1.2rem", color: "#333" }}>Register Here</h2>
+        <h2 style={{ margin: "0 0 15px", fontSize: "1.2rem", color: "#333" }}>Login Here</h2>
         <form onSubmit={sendLogin} style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <label htmlFor="mobile" style={{ marginBottom: "5px", fontSize: "0.9rem", color: "#555", width: "100%" }}>
             Mobile Number
